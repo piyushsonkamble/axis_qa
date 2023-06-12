@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 3.07 s <<< FAILURE! - in TestSuite
+org.base.testcases.TestCase1.initializeSetup  Time elapsed: 2.946 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LVD2BN5', ip: '192.168.31.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: RemoteWebDriver
+	at org.base.testcases.TestCase1.initializeSetup(TestCase1.java:23)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.31.206:4444
+	at org.base.testcases.TestCase1.initializeSetup(TestCase1.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at org.base.testcases.TestCase1.initializeSetup(TestCase1.java:23)
+
+org.base.testcases.TestCase1.initializeSetup  Time elapsed: 2.948 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LVD2BN5', ip: '192.168.31.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: RemoteWebDriver
+	at org.base.testcases.TestCase1.initializeSetup(TestCase1.java:23)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.31.206:4444
+	at org.base.testcases.TestCase1.initializeSetup(TestCase1.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at org.base.testcases.TestCase1.initializeSetup(TestCase1.java:23)
+

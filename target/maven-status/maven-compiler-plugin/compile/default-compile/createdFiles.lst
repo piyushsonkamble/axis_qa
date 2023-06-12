@@ -1,0 +1,5 @@
+org\base\pack\BaseConfig.class
+org\page\objects\DesktopsPage.class
+manipal\axis\App.class
+org\page\objects\AddToCartPage.class
+org\page\objects\HomePage.class
